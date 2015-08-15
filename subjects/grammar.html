@@ -1,0 +1,22 @@
+---
+layout: default
+title: Grammar
+---
+
+<div class="posts">
+  <div class="post">
+
+    <h1 class="page-title">{{ page.title }}</h1>
+
+    {% for t in site.data.grammar %}
+      <h3>{{ t.name }}</h3>
+      <p><small>
+        {{ t.prompt }}
+      </small></p>
+      <p>
+        {{ t.sentence }}
+      </p>
+    {% endfor %}
+
+  </div>
+</div>

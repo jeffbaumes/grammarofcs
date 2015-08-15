@@ -1,0 +1,13 @@
+title:        Grammar of CS
+tagline:      "Grammar for Computer Science"
+#url:          http://jeffbaumes.github.io/relateucate
+url:          ""
+author:
+  name:       "Jeff Baumes"
+  email:      "jeffbaumes@gmail.com"
+excerpt_separator: "\n\n"
+comments:     true
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
+paginate:     5
