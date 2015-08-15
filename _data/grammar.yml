@@ -31,7 +31,7 @@
     prompt: What is a data structure?
     sentence: A data structure is a way of organizing data for efficient use.
 -
-    name: Data Structures
+    name: Basic Data Structures
     prompt: What are some basic data structures?
     sentence: Some basic data structures are array, associative array, linked list, hash table, stack, queue, set, tree, graph.
 -
@@ -39,9 +39,9 @@
     prompt: What is an algorithm?
     sentence: An algorithm is a set of step-by-step instructions.
 -
-    name: Recursion
+    name: Recursiion
     prompt: What is recursion?
-    sentence: Recursion is the repetition of something inside itself.
+    sentence: Recursion is the repetition of part of a program inside itself, simplifying the problem a little each time until a base case is reached.
 -
     name: Operating System
     prompt: What is an operating system?
@@ -61,7 +61,7 @@
 -
     name: Compiler
     prompt: What is a compiler?
-    sentence: A compiler is a computer program that translates source code written in a programming language to machine code or another programming language.
+    sentence: A compiler is a computer program that translates source code written in a programming language to machine code or another more basic programming language.
 -
     name: Functional Programming
 -
