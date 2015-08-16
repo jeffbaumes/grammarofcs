@@ -1,11 +1,11 @@
 -
-    name: Computers
+    name: Computer
     prompt: What is a computer?
     sentence: A computer is a machine that can be programmed to perform many types of operations.
 -
     name: Computer Program
     prompt: What is a computer program?
-    sentence: A computer program is a list of instructions given to a computer to perform a task.
+    sentence: A computer program is a set of instructions given to a computer to perform a task.
 -
     name: Function
     prompt: What is a function?

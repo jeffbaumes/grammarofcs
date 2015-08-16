@@ -9,5 +9,5 @@ excerpt_separator: "\n\n"
 comments:     true
 markdown:     rdiscount
 permalink:    pretty
-pygments:     true
+highligher:   pygments
 paginate:     5
