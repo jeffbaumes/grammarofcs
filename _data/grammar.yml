@@ -7,21 +7,33 @@
     prompt: What is a computer program?
     sentence: A computer program is a set of instructions given to a computer to perform a task.
 -
-    name: Function
-    prompt: What is a function?
-    sentence: A function is a set of rules for transforming one or more inputs into one or more outputs.
--
     name: Statement
     prompt: What is a statement?
     sentence: A statement is a fundamental building block of a program that describes a single logical operation.
+-
+    name: Expression
+    prompt: What is an expression?
+    sentence: An expression is a part of a statement that combines values and operators using specific rules to produce a value.
 -
     name: Variable
     prompt: What is a variable?
     sentence: A variable is a name in a program associated with a value that may be changed.
 -
+    name: Variable Declaration
+    prompt: What is a variable declaration?
+    sentence: A variable declaration is a statement which names one or more variables, sometimes including the variable's type and initial value.
+-
+    name: Assignment Statement
+    prompt: What is an assignment statement?
+    sentence: An assignment statement is a statement where a variable is given a new value in the form "variable-name gets expression" such as "x = 5".
+-
+    name: Function
+    prompt: What is a function?
+    sentence: A function is a packaged set of instructions for a computer program that can be called over and over, normally expressed with a function name, argument list, function body, and return statement.
+-
     name: Data Type
     prompt: What is a data type?
-    sentence: A data type is a classification of data into categories that determines the possible values and interpretation of the data.
+    sentence: A data type is a classification of data into categories that determines the possible values and usage of the data.
 -
     name: Primitive Data Types
     prompt: What are the primitive data types?
@@ -41,7 +53,7 @@
 -
     name: Recursiion
     prompt: What is recursion?
-    sentence: Recursion is the repetition of part of a program inside itself, simplifying the problem a little each time until a base case is reached.
+    sentence: Recursion is the repetition of part of a program inside itself, simplifying a problem each time it is called until a base case is reached.
 -
     name: Operating System
     prompt: What is an operating system?
@@ -49,7 +61,7 @@
 -
     name: Application
     prompt: What is an application?
-    sentence: An application is a set of computer program that perform coordinated tasks.
+    sentence: An application is a set of computer programs that perform coordinated tasks.
 -
     name: Internet
     prompt: What is the Internet?
@@ -61,31 +73,75 @@
 -
     name: Compiler
     prompt: What is a compiler?
-    sentence: A compiler is a computer program that translates source code written in a programming language to machine code or another more basic programming language.
--
-    name: Functional Programming
--
-    name: Artificial Intelligence
--
-    name: Object Oriented Programming
--
-    name: Compiler
--
-    name: Class
--
-    name: Polymorphism
+    sentence: A compiler is a computer program that translates source code written in a programming language to machine code or another lower-level programming language.
 -
     name: Interpreter
+    prompt: What is an interpreter?
+    sentence: An interpreter is a computer program that directly performs instructions written in a programming language without compilation.
+-
+    name: Computer Hardware
+    prompt: What are some parts of a computer's hardware?
+    sentence: Some parts of a computer's hardware are central processing unit (CPU), graphics processing unit (GPU), random access memory (RAM), data storage, input devices, output devices.
+-
+    name: Loop
+    prompt: What are the four major forms of loops?
+    sentence: The four major forms of loops are for, for-each, while, do-while.
+-
+    name: Conditional
+    prompt: What are the four major forms of conditionals?
+    sentence: The four major forms of conditional statements are if-then, if-then-else, if-then-elseif-else, switch-case-default.
+-
+    name: Functional Programming
+    prompt: What is functional programming?
+    sentence: Functional programming is a programming paradigm that evaluates only pure functions, avoiding side effects and mutable data.
+-
+    name: Object-Oriented Programming
+    prompt: What is object-oriented programming?
+    sentence: Object-oriented programming is a programming paradigm where the building blocks are objects that manage their data (called attributes) using functions (called methods).
+-
+    name: Class
+    prompt: What is a class?
+    sentence: A class is the definition of the attributes and methods for a type of object, which can be used to create new objects as instances of the class.
 -
     name: Polymorphism
+    prompt: What is polymorphism?
+    sentence: Polymorphism is the ability for the same programmatic structure to work on different types.
 -
-    name: JavaScript
+    name: Boolean Operators
+    prompt: What are some boolean operators?
+    sentence: Some boolean operators are not, and, or, less than, greater than, equals, not equal to.
 -
-    name: C++
+    name: Bitwise Operations
+    prompt: What are some bitwise operations?
+    sentence: Some bitwise operations are NOT, AND, OR, exclusive or (XOR), bit-shift left, bit-shift right.
 -
-    name: Python
+    name: Binary Number
+    prompt: What is a binary number?
+    sentence: A binary number is a whole number represented as a list of bits which can be one or zero, starting with zero, one, one-zero (two), one-one (three).
 -
-    name: Java
+    name: Two's Complement
+    prompt: What is two's complement?
+    sentence: Two's complement is a way to represent negative binary numbers by subtracting one then inverting all the bits of a positive binary number.
+-
+    name: Pointer
+    prompt: What is a pointer?
+    sentence: A pointer is a value holding the address of a location in memory where another value is stored.
+-
+    name: Scope
+    prompt: What is the scope of named entity?
+    sentence: The scope of a named entity is the area of a program where the name is valid, which may be global or limited to a module, file, function, block, or expression.
+-
+    name: Function Overloading
+    prompt: What is function overloading?
+    sentence: Function overloading is the practice of creating multiple function implementations with the same name.
+-
+    name: Method Overriding
+    prompt: What is method overriding?
+    sentence: Method overriding is the practice of creating a method of the same name in a subclass that replaces the method in the superclass.
+-
+    name: Class Inheritance
+    prompt: What is class inheritance?
+    sentence: Class inheritance is the indication that a class (the subclass) should include all the attributes and methods of another class (the superclass), which may then be extended.
 -
     name: Stack Allocation
 -
@@ -111,9 +167,9 @@
 -
     name: Open-Source Software
 -
-    name: Scope
--
     name: Closure
+-
+    name: Constructor
 -
     name: JavaScript Object Notation
 -
@@ -125,11 +181,11 @@
 -
     name: NoSQL Database
 -
+    name: File System
+-
     name: Provisioning
 -
     name: Git
--
-    name: Container
 -
     name: Linux
 -
@@ -143,33 +199,11 @@
 -
     name: Alan Turing
 -
-    name: Transistor
--
-    name: Random Access Memory
--
-    name: Processor
--
-    name: Graphics Processing Unit
--
-    name: Data Storage Device
--
-    name: Central Processing Unit
+    name: Moore's Law
 -
     name: Driver
 -
-    name: Computer Hardware
--
     name: Computer Software
--
-    name: Loop
--
-    name: Conditional
--
-    name: Assignment
--
-    name: Expression
--
-    name: Switch Statement
 -
     name: Anonymous Function
 -
@@ -187,10 +221,6 @@
 -
     name: Web Browser
 -
-    name: Secure Shell
--
-    name: Shell
--
     name: Integrated Development Environment
 -
     name: Linker
@@ -200,12 +230,6 @@
     name: Preprocessor
 -
     name: MapReduce
--
-    name: Hadoop
--
-    name: Data Science
--
-    name: Spark
 -
     name: Call By Reference
 -
@@ -220,8 +244,6 @@
     name: Representational State Transfer
 -
     name: Encapsulation
--
-    name: Inheritance
 -
     name: Duck Typing
 -
@@ -257,6 +279,16 @@
 -
     name: Throughput
 -
-    name: Solid State Drive
+    name: JavaScript
 -
-    name: Hard Disk Drive
+    name: C++
+-
+    name: Python
+-
+    name: Java
+-
+    name: Artificial Intelligence
+-
+    name: Data Science
+-
+    name: Container

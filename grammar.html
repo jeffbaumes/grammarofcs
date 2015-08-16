@@ -9,7 +9,7 @@ title: The Grammar
     <h1 class="page-title">{{ page.title }}</h1>
 
     {% for t in site.data.grammar %}
-      <h3>{{ t.name }}</h3>
+      <h3>{{ forloop.index }}. {{ t.name }}</h3>
       <p><small>
         {{ t.prompt }}
       </small></p>
