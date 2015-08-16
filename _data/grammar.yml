@@ -145,7 +145,7 @@
 -
     name: Transistor
 -
-    name: Computer Memory
+    name: Random Access Memory
 -
     name: Processor
 -
@@ -206,3 +206,57 @@
     name: Data Science
 -
     name: Spark
+-
+    name: Call By Reference
+-
+    name: Call By Value
+-
+    name: Dynamic Programming
+-
+    name: Public Key Encryption
+-
+    name: Application Programming Interface
+-
+    name: Representational State Transfer
+-
+    name: Encapsulation
+-
+    name: Inheritance
+-
+    name: Duck Typing
+-
+    name: Virtual Machine
+-
+    name: Exception
+-
+    name: Global Variable
+-
+    name: Local Variable
+-
+    name: Arguments
+-
+    name: Mutex
+-
+    name: Thread
+-
+    name: Deadlock
+-
+    name: Parallel Programming
+-
+    name: Multithreaded Programming
+-
+    name: Distributed Programming
+-
+    name: Process
+-
+    name: Scheduler
+-
+    name: Concurrency
+-
+    name: Atomic Operation
+-
+    name: Throughput
+-
+    name: Solid State Drive
+-
+    name: Hard Disk Drive
