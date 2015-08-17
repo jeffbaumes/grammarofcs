@@ -211,6 +211,12 @@
 -
     name: Heap Allocation
 -
+    name: Mixin
+-
+    name: Interface
+-
+    name: Template
+-
     name: Deterministic Program
 -
     name: Nondeterministic Program
