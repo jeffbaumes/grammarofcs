@@ -149,7 +149,7 @@
 -
     name: Function Overloading
     prompt: What is function overloading?
-    sentence: Function overloading is the practice of creating multiple function implementations with the same name.
+    sentence: Function overloading is the practice of creating multiple function definitions with the same name, whose arguments may vary in number or type.
 -
     name: Sorting Algorithms
     prompt: What are some sorting algorithms?
