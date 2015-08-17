@@ -103,6 +103,18 @@
     prompt: What is a class?
     sentence: A class is the definition of the attributes and methods for a type of object, which can be used to create new objects as instances of the class.
 -
+    name: Constructor
+    prompt: What is a constructor?
+    sentence: A constructor is a special method of class used to create a new object and set it up in a specified way.
+-
+    name: Method Overriding
+    prompt: What is method overriding?
+    sentence: Method overriding is the practice of creating a method of the same name in a subclass that replaces the method in the superclass.
+-
+    name: Class Inheritance
+    prompt: What is class inheritance?
+    sentence: Class inheritance is the indication that a class (the subclass) should include all the attributes and methods of another class (the superclass), which may then be extended.
+-
     name: Polymorphism
     prompt: What is polymorphism?
     sentence: Polymorphism is the ability for the same programmatic structure to work on different types.
@@ -127,6 +139,10 @@
     prompt: What is a pointer?
     sentence: A pointer is a value holding the address of a location in memory where another value is stored.
 -
+    name: Exception
+    prompt: What is an exception?
+    sentence: An exception is a unusual condition raised (or thrown) in a program which may be handled (or caught) to avoid program termination.
+-
     name: Scope
     prompt: What is the scope of named entity?
     sentence: The scope of a named entity is the area of a program where the name is valid, which may be global or limited to a module, file, function, block, or expression.
@@ -135,21 +151,65 @@
     prompt: What is function overloading?
     sentence: Function overloading is the practice of creating multiple function implementations with the same name.
 -
-    name: Method Overriding
-    prompt: What is method overriding?
-    sentence: Method overriding is the practice of creating a method of the same name in a subclass that replaces the method in the superclass.
+    name: Sorting Algorithms
+    prompt: What are some sorting algorithms?
+    sentence: Some sorting algorithms are bubble sort, selection sort, insertion sort, merge sort, quicksort.
 -
-    name: Class Inheritance
-    prompt: What is class inheritance?
-    sentence: Class inheritance is the indication that a class (the subclass) should include all the attributes and methods of another class (the superclass), which may then be extended.
+    name: Array
+    prompt: What is an array?
+    sentence: An array is a sequence of values where each value is accessed by appending an index in brackets (such as "a[5]"), normally starting with index zero.
+-
+    name: Associative Array
+    prompt: What is an associative array?
+    sentence: An associative array, or map, is a collection of key-value pairs where each key appears only once and the corresponding value may be found quickly.
+-
+    name: Call By Value
+    prompt: What is call by value?
+    sentence: Call by value is the process of sending an argument to a function as a copy of the value, leaving the original value unchanged by the function.
+-
+    name: Call By Reference
+    prompt: What is call by reference?
+    sentence: Call by reference is the process of sending an argument to a function as a reference to the value, so the function may alter the original value.
+-
+    name: Regular Expression
+    prompt: What is a regular expresion?
+    sentence: A regular expression is a sequence of characters that define a search pattern, often used for string matching.
+-
+    name: JavaScript Object Notation
+    prompt: What is JavaScript Object Notation?
+    sentence: JavaScript Object Notation (JSON) is a data representation consisting of associative arrays, arrays, strings, numbers, and the constants true, false, null.
+-
+    name: Extensible Markup Language
+    prompt: What is Extensible Markup Language?
+    sentence: Extensible Markup Language (XML) is a data representation consisting of elements which may have attributes, child elements, and text content.
+-
+    name: Database
+    prompt: What is a database?
+    sentence: A database is a set of data organized so that questions about the data (called queries) may be answered efficiently.
+-
+    name: Asymptotic Algorithm Complexity
+    prompt: What is asymptotic algorithm complexity?
+    sentence: Asymptotic algorithm complexity describes the number of steps required for an algorithm to complete as the input size becomes very large, often described in Big Oh notation.
+-
+    name: Polynomial Time Algorithm
+    prompt: What is polynomial time algorithm?
+    sentence: A polynomial time algorithm is an algorithm whose asymptotic complexity is some polynomial expression of the input length.
+-
+    name: P Problem
+    prompt: What is an P problem?
+    sentence: A P problem is a yes or no question that can be solved in polynomial time.
+-
+    name: NP Problem
+    prompt: What is an NP problem?
+    sentence: An NP problem is a yes or no question whose solution can be verified in polynomial time.
+-
+    name: NP-Complete Problem
+    prompt: What is an NP-complete problem?
+    sentence: An NP-complete problem is an NP problem that, if solvable in polynomial time, would make every NP problem solvable in polynomial time.
 -
     name: Stack Allocation
 -
     name: Heap Allocation
--
-    name: Algorithmic Complexity
--
-    name: NP-Completeness
 -
     name: Deterministic Program
 -
@@ -159,8 +219,6 @@
 -
     name: Cryptography
 -
-    name: Regular Expression
--
     name: Context-Free Grammar
 -
     name: Turing Machine
@@ -168,14 +226,6 @@
     name: Open-Source Software
 -
     name: Closure
--
-    name: Constructor
--
-    name: JavaScript Object Notation
--
-    name: Extensible Markup Language
--
-    name: Database
 -
     name: SQL Database
 -
@@ -231,10 +281,6 @@
 -
     name: MapReduce
 -
-    name: Call By Reference
--
-    name: Call By Value
--
     name: Dynamic Programming
 -
     name: Public Key Encryption
@@ -248,14 +294,6 @@
     name: Duck Typing
 -
     name: Virtual Machine
--
-    name: Exception
--
-    name: Global Variable
--
-    name: Local Variable
--
-    name: Arguments
 -
     name: Mutex
 -
